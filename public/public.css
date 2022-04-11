@@ -1,0 +1,531 @@
+.left-sidebar{
+    background-color: #3A4058;
+}
+
+.sidebar-image-wrap{
+    display:block;
+    position:relative;
+    height:200px;
+    margin: 10px auto -40px auto;
+    overflow: hidden;
+    z-index:1;
+}
+
+.sidebar-image-wrap img{
+    max-width:100%;
+    background-color: white;
+    max-height:200px;
+    z-index:1;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.sidebar-img-2{
+    display: none;
+}
+
+.sidebar-username{
+    text-align: center;
+    color: white;
+}
+
+.header{
+    background-color: #DBD0FC;
+    color: whitesmoke;
+}
+
+.content-card{
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.image-article-index{
+    width: "200px";
+    height: "200px";
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-article-show{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.image-article-comment{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.main{
+    display:block;
+    position:relative;
+    width: 100%;
+    margin: 0 auto;
+}
+.cover{
+    display:block;
+    position:relative;
+    height:200px;
+    overflow: hidden;
+    z-index:1;
+}
+.cover img{
+   max-width:100%;
+   max-height:200px;
+   z-index:1;
+}
+.profile{
+    display:block;
+    position:relative;
+    width:200px;
+    height:200px;
+    margin: -100px 0 10px 20px;
+    z-index:999;
+}
+.profile img{
+   max-width:100%;
+   border-radius: 50%;
+    z-index:999;
+}
+
+.profile-username{
+    float: left;
+    margin-left: 230px;
+    margin-top: -90px;
+    margin-bottom: 50px;
+}
+
+.foto-profil img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: -80px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.foto-sampul{
+    height: 200px;
+    object-fit: fill;
+}
+/* .foto-sampul{
+
+    transition: 0.75s;
+}
+
+.foto-sampul:hover{
+    transform: scale(1) ;
+    height: 500px;
+} */
+
+.nama-user{
+    margin-left: 170px;
+    margin-top: -60px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:  #3A4058;
+}
+
+.profile-setting{
+    float: right;
+    margin-top: -70px;
+    margin-right: 10px;
+}
+
+.image-post-index{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-post-show{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.konten-post{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.button {
+    transition-duration: 0.4s;
+    border: none;
+    color: grey;
+  }
+  
+  .button:hover {
+    background-color: grey; /* Green */
+    color: white;
+  }
+
+  .background-index-head{
+    color: #E9E9E9;
+    padding: 10px;
+  }
+
+  .background-index-head h4{
+    color: #E9E9E9;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+
+  .background-index-post-body{
+    padding: 10px;
+    background-color: white; 
+    color: #3A4058;
+    border-bottom: 2px solid #7D7AAE; 
+  }
+
+  .post-like{
+      float: right;
+  }
+
+.daftar-post{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.backgoround-post-show{
+    background-color: white;
+    border-radius: 3%;
+    border-bottom: 3px solid #7D7AAE;
+    color: rgba(0, 0, 0, 0.801);
+}
+
+.backgoround-post-show h2{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.backgoround-post-show p{
+    font-family: sans-serif;
+}
+
+.comment-post-header{
+    color:white;
+    font-weight: bold;
+}
+
+.comment-post-header h5{
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.comment-post-body{
+    background-color: white;
+    color:rgba(0, 0, 0, 0.616);
+    font-weight: bold;
+    border-bottom: 3px solid #7D7AAE;
+}
+
+.postingan{
+    border: 2px solid #7D7AAE;
+    color:rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.list-post-user{
+    background-color: #e0dde7;
+}
+
+.chat-box{
+    height: 400px;    
+    overflow-x: scroll;
+}
+
+.chat-list1{
+    background-color: #e0dde7; 
+    float: left;
+    width: 80%;
+    padding: 10px; 
+    border-radius: 25px; 
+    margin-bottom: 5px;
+}
+
+.chat-list2{
+    background-color: rgb(199, 223, 199); 
+    width: 80%;
+    float: right;
+    padding: 10px; 
+    border-radius: 25px; 
+    margin-bottom: 5px;
+}
+
+.chat-item{
+    width: auto;  
+    
+    
+}
+
+.user-online{
+    color:green;
+}
+
+.user-offline{
+    color:grey;
+}
+
+.chat-status{
+    float: right;
+}
+
+.chat-status-read{
+    float: right;
+    color: green;
+}
+
+.pending {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    padding: 4px;
+
+    background: red;
+    color: white;
+    text-align: center;
+
+    font: 13px Arial, sans-serif;
+}
+
+.isi-chat{
+    overflow:auto; 
+    height:400px;
+}
+
+.user-list-chat{
+    background-color: #DBD0FC;
+}
+
+.chat-status-online{
+    margin-top: -5px;
+}
+
+/* profile */
+.card-tabs{
+    height: 400px;
+}
+.tabs{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    overflow: auto;
+    padding-right: 40px;
+}
+
+.tabs .tab-header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.tabs .tab-header > div{
+    width: calc(100%/3);
+    text-align: center;
+    color: #888;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.tabs .tab-header > div > i {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.tabs .tab-header > div.active{
+    color: rgb(76, 76, 199);
+}
+
+.tabs .tab-indicator{
+    position: relative;
+    width: calc(100%/3);
+    height: 5px;
+    background:rgb(76, 76, 199);
+    left: 0px;
+    border-radius: 5px;
+}
+
+.tabs .tab-body{
+    position: relative;
+    height: calc(100% - 60px);
+    padding: 10px 5px;
+}
+
+.tabs .tab-body > div{
+    position: absolute;
+    top:-200%;
+    opacity: 0;
+    margin-top: 5px;
+    transform: scale(0.9);
+    transition: opacity 500ms ease-in-out 0ms, transform 500ms ease-in-out 0ms;
+}   
+
+.tabs .tab-body > div.active{
+    top:0px;
+    opacity: 1;
+    transform: scale(1);
+    margin-top: 15px;
+}
+
+.daftar-postingan{
+    overflow: auto;
+}
+
+.card-postingan-profile{
+    background-color: blue;
+}
+
+.about-user ul{
+    display: inline;
+}
+
+.menu-about-user li{
+    display: inline;
+    width: calc(100% /3);
+}
+
+.profile-image-edit{
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: whitesmoke;
+}
+
+.profile-form-box {
+	color:rgb(0, 0, 0);
+}
+
+.profile-form-box input{
+	outline: 0;
+	border-width: 0 0 2px;
+	border-color: #DBD0FC;
+}
+
+.profile-pic{
+    object-fit:cover; 
+    background-color: white;
+}
+
+.card-admin-1{
+	border-top: 2px solid blue;
+	color: #2e2f30;
+}
+
+.card-admin-text-1{
+	text-align: center;
+	font-weight: bold;
+}
+
+.card-admin-text-2{
+	text-align: center;
+	font-weight: bold;
+}
+
+.input-form{
+    outline: 0;
+	border-width: 0 0 2px;
+	border-color: #DBD0FC;
+}
+
+@media(max-width: 720px){
+    .sidebar-img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+
+    .content-card{
+        width: 100%;
+        height: auto;
+    }
+
+    .profile{
+        position: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:200px;
+        height:200px;
+        margin-top: -300px;
+        z-index:999;
+    }
+    .profile img{
+       max-width:100%;
+       border-radius: 50%;
+        z-index:999;
+    }
+
+    .profile-username{
+        margin-top: 8px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .background-index-head h4{
+        width: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .image-post-index{
+        margin-bottom: 10px;
+        align-items: center;
+    }
+
+    .nama-user{
+        margin-left: 0px;
+        margin-top: 0px;
+        padding-top: 10px;
+        padding-bottom: 25px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color:  #3A4058;
+        width: 100%;
+        text-align: center;
+    }
+
+    .foto-profil img{
+        margin-left: 150px;
+        margin-right: auto;
+    }
+
+    .foto-profil img{
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        margin-top: -80px;
+        margin-bottom: 10px;
+    }
+
+    .profile-setting{
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+
+    .sidebar-image-wrap{
+        display: none;
+    }
+}
+

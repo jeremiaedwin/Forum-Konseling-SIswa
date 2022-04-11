@@ -1,0 +1,111 @@
+body{
+	background-color: #f7f2fa;
+}
+
+.kotak{
+	margin-top: 110px;
+}
+
+.kotak-login{
+	margin: auto;
+	width: 800px;
+	box-shadow: 3px 3px 3px 3px;
+	border-radius: 8px;
+	background-color: white;
+}
+
+.teks-login {
+	margin-top: 40px; 
+}
+
+.teks-login h3{
+	text-align: center;
+	font-weight: 700;
+}
+
+.teks-login h5{
+	text-align: center;
+}
+
+
+
+.kotak-form{
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.kotak-form form{
+	color: black;
+	font-weight: 600;
+}
+
+.kotak-form input{
+	outline: 0;
+	border-width: 0 0 2px;
+	border-color: #DBD0FC;
+}
+
+.kotak-form input:focus{
+	border-color: #3A4058 ;
+}
+
+.kotak-form button{
+	width: 100%;
+}
+
+.kotak-form .tombol-sign-in{
+  background-color: #925af2; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 15px;
+}
+
+.kotak-form .tombol-sign-in:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.kotak-form .link-register{
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	color: #8452d9;
+}
+
+.kotak-form a:hover{
+	color: #7f5c9e;
+}
+
+.gambar-login{
+	border-radius: 5px
+}
+
+@media only screen and (max-width: 600px) {
+  .kotak{
+	margin-top: 110px;
+	}
+
+	.kotak-login{
+	margin: 10px;
+	width: 90%;
+	box-shadow: 3px 3px 3px 3px;
+	border-radius: 8px;
+	background-color: white;
+	}
+
+	.kotak-form{
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	}
+
+	.gambar-login{
+		display: none;
+	}
+}
